@@ -1,114 +1,55 @@
-body{
-    background: rgb(204, 205, 202);
-}
-.header{
-    height: 40px;
-    background-image:linear-gradient(blue,red);
-    margin-bottom:10px;
-}
-.content{
-    height: 600px;
-    display: flex;
-}
-.content-left{
-    width: 49%;
-    height: 100%;
-    margin-right: 1%;
-}
-.content-right{
-    width: 50%;
-    height: 100%;
-}
-.content-left1{
-    height: 320px;
-    margin-bottom: 12px;
-    background-image:linear-gradient(red,yellow);
-    width: 100%;
-}
-.content-left2{
-    height: 268px;
+
+
+.menu{
     display: flex;
     width: 100%;
+    background: blue;
+    padding-left: 0;
 }
-.content-left21{
-    width: 49%;
-    margin-right: 2%;
-    height: 100%;
+li{
+    padding: 15px 15px;
+    background: blue;
+    width: 100px;
+    text-align: center;
+    list-style: none;
 }
-.content-left22{
-    width: 49%;
-    height: 264px;
-    background-image:linear-gradient(yellow,violet);
+li:hover{
+    background: chartreuse;
+    color: darkblue;
 }
-.content-left211{
-    background-image:linear-gradient(violet,khaki);
-    height: 90px;
-    width: 100%;
-    margin-bottom: 12px;
+.menuc1:hover .menuconc1{
+   display: block;
 }
-.content-left212{
-    background-image:linear-gradient(khaki,orange);
-    height: 158px;
-    width: 100%;
+.menuconc1{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: -40px;
 }
-.content-right1{
-    width: 100%;
-    height: 150px;
-    display: flex;
-    margin-bottom: 12px;
+.menuc1{
+    position: relative;
 }
-.content-right2{
-    height: 116px;
-    background-image:linear-gradient(orange,green);
-    width: 99.5%;
-    margin-bottom: 12px;
+.menuc2:hover .menuconc2{
+    display: block;
 }
-.content-right3{
-    display: flex;
-    height: 210px;
-    margin-bottom: 12px;
-    width: 100%;
+.menuconc2{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 80px;
 }
-.content-right4{
-    height: 80px;
-    background-image:linear-gradient(green,pink);
-    width: 99.5%;
+.menuc2 {
+    position: relative;
 }
-.content-right11{
-    width: 79%;
-    height: 146px;
-    margin-right: 2%;
-    background-image:linear-gradient(pink,salmon);
-}
-.content-right12{
-    width: 19%;
-    height: 146px;
-    background-image:linear-gradient(salmon,grey);
-}
-.content-right31{
-    width: 32%;
-    margin-right: 2%;
-    height: 100%;
-    background-image:linear-gradient(grey,brown);
-}
-.content-right32{
-    width: 32%;
-    margin-right: 2%;
-    height: 100%;
-    background-image:linear-gradient(brown,blueviolet);
-}
-.content-right33{
-    width: 32%;
-    height: 100%;
-    background-image:linear-gradient(blueviolet,aqua);
-}
-.footer{
-    clear: both;
-    height: 50px;
-    margin-top: 12px;
-    background-image:linear-gradient(aqua,chocolate);
-}
-.border{
-    border: 2px solid white;
-    background: 
-}
+
+a{
+      color: yellow;
+      text-decoration: none;
+  }
+  .menuconc1 li{
+      background: violet;
+  }
+  .menuconc1 li:hover{
+      color: tomato;
+      background: yellowgreen;
+  }
