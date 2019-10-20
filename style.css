@@ -1,0 +1,55 @@
+
+
+.menu{
+    display: flex;
+    width: 100%;
+    background: blue;
+    padding-left: 0;
+}
+li{
+    padding: 15px 15px;
+    background: blue;
+    width: 100px;
+    text-align: center;
+    list-style: none;
+}
+li:hover{
+    background: chartreuse;
+    color: darkblue;
+}
+.menuc1:hover .menuconc1{
+   display: block;
+}
+.menuconc1{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: -40px;
+}
+.menuc1{
+    position: relative;
+}
+.menuc2:hover .menuconc2{
+    display: block;
+}
+.menuconc2{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 90px;
+}
+.menuc2 {
+    position: relative;
+}
+
+a{
+      color: yellow;
+      text-decoration: none;
+  }
+  .menuconc1 li{
+      background: violet;
+  }
+  .menuconc1 li:hover{
+      color: tomato;
+      background: yellowgreen;
+  }
