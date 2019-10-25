@@ -1,55 +1,73 @@
-
-
-.menu{
-    display: flex;
+body{
+    background: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
     width: 100%;
-    background: blue;
-    padding-left: 0;
-}
-li{
-    padding: 15px 15px;
-    background: blue;
-    width: 100px;
+    height: auto;
+    background: white;
     text-align: center;
-    list-style: none;
+    padding-top: 30px;
+    padding-bottom: 15px;
 }
-li:hover{
-    background: chartreuse;
-    color: darkblue;
+.menu{
+    background: black;
 }
-.menuc1:hover .menuconc1{
-   display: block;
+.menu ul{
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
 }
-.menuconc1{
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: -40px;
+.menu ul li{
+    display: inline-flex;
 }
-.menuc1{
-    position: relative;
+.content2{
+    width: 100%;
+    height: auto;
+    display: flex;
 }
-.menuc2:hover .menuconc2{
-    display: block;
+.content_left{
+    width: 75%;
+    height: auto;
 }
-.menuconc2{
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 90px;
+.content_right{
+    width: 24%;
+    height: auto;
+    margin-left: 1%;
 }
-.menuc2 {
-    position: relative;
+.content_left_all{
+    background-color: white;
+    height: auto;
+    margin: 15px 0px;
+    padding: 20px 15px;
 }
 
+.content_right_all{
+    height: auto;
+    margin: 15px 0;
+    padding: 20px 15px;
+    background: white;
+}
+
+.footer{
+    clear: both;
+    background: yellow;
+    color: teal;
+    text-align: center;
+    padding: 30px 30px;
+}
 a{
-      color: yellow;
-      text-decoration: none;
-  }
-  .menuconc1 li{
-      background: violet;
-  }
-  .menuconc1 li:hover{
-      color: tomato;
-      background: yellowgreen;
-  }
+    text-decoration: none;
+    color: white;
+    padding: 15px 15px;
+}
+.image{
+    background-color: silver;
+    height: 150px;
+    padding: 15px 15px;
+}
+.imageclone{
+    background-color: silver;
+    height: 50px;
+    padding: 15px 15px;
+}
