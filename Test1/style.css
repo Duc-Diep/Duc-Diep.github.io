@@ -34,7 +34,7 @@ i {
 }
 .content1 {
   height: auto;
-  padding: 50px 200px;
+  margin: 50px 200px;
   text-align: center;
 }
 h1 {
@@ -46,7 +46,7 @@ p {
 .content2 {
   display: flex;
   height: auto;
-  padding: 0px 200px;
+  margin: 0px 200px;
   margin-bottom: 40px;
 }
 .anh1 {
@@ -65,7 +65,7 @@ p {
 .content3 {
   display: flex;
   height: auto;
-  padding: 0px 200px;
+  margin: 0px 200px;
 }
 .anh2 {
   width: 30%;

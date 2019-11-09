@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .menu {
+    padding: 10px;
+    background: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    box-shadow: 2px 2px 2px lightgrey;
+    z-index: 1000;
+  }
+  .menu ul li {
+    display: flex;
+    float: right;
+    border: 1px solid blue;
+    border-radius: 10px;
+    margin-right: 20px;
+    padding: 5px;
+  }
+  .menu a {
+    text-decoration: none;
+    padding: 5px 5px;
+    color: black;
+    font-size: 12px;
+  }
+  i {
+    margin-right: 5px;
+  }
+  li:hover{
+      background: rgb(77, 117, 226);
+  }
+  .image{
+      height: 400px;
+      width: 100%;
+      background-image: url(./SAO.png);
+      background-size: 100%;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+  }
+  .logo{
+      position: absolute;
+      top: 300px;
+      left: 45%;
+      height: 172px;
+      width: 169px;
+      background-image: url(./logo.png);
+      background-repeat: no-repeat;
+      border-radius: 50%;
+      border: 2px solid blue;
+  }
+  .main{
+    width: 100%;
+    background-color: white;
+    clear: both;
+    position: relative;
+    margin-bottom: 10px;
+  }
+  hr{
+      width:60%;
+      margin: 150px auto 50px auto;
+  }
+  .content{
+      display: flex;
+    width: 70%;
+    margin: 100px auto;
+  }
+  .pic{
+      width: 50%;
+      padding: 10px;
+  }
+  .ct{
+      width: 50%;
+      padding: 10px;
+      text-align: center;
+  }
+  .anh{
+      width: 100%;
+      height: 500px;
+  }
+  .footer{
+     background: #0652DD;
+     text-align: center;
+     padding: 20px;
+  }
+  .footer a{
+    text-decoration: none;
+    color: red;
+  }
