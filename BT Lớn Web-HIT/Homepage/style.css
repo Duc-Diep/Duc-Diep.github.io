@@ -91,6 +91,8 @@ color: #E73A99;
 text-decoration: none;
 }
 .sign-up{
+    padding-left: 0!important;
+    padding-right: 0!important;
     background-image:linear-gradient(yellow,orange,rgb(110, 241, 110)) ;
 }
 .end li a{
