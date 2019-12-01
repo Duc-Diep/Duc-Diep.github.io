@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/edd81d019b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css"
+        integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="all">
+        <!-- branch -->
+        <div class="container-fluid display-flex row">
+            <div class="navbar col-xs-12 col-sm-12 col-md-3">
+                <a class="navbar-brand ml-auto mr-auto" href="#">
+                    <img src="./logo.jpg" width="300" height="60" class="d-inline-block" alt="">
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 ">
+                <form class="form-inline ml-5 pt-4 ">
+                    <input class="form-control ml-4" type="search" placeholder="Tìm kiếm tài nguyên, phần mềm,..."
+                        aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i
+                            class="fas fa-search"></i></button>
+                </form>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 pt-3 display-flex">
+                <button style="width: 150px;" type="button"
+                    class="btn btn-primary ml-auto mr-auto mt-1">Đăng nhập</button>
+                <button style="width: 200px" type="button" class="btn btn-secondary ml-auto mr-auto mt-1">Giỏ hàng <i
+                        class="fas fa-shopping-cart"></i></button>
+            </div>
+        </div>
+        <!-- menu -->
+        <nav class="navbar navbar-expand-md navbar-light sticky-top">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto mr-auto">
+                        <li class="nav-item">
+                            <a style="color: orange;" class="nav-link active mr-3" href="#">Trang chủ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mr-3" href="#">Giới thiệu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mr-3" href="#">Membership</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mr-3" href="#">Ecommerce</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mr-3" href="#">Plugin</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mr-3" href="#">Blogs</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle mr-3" data-toggle="dropdown" href="#" role="button"
+                                aria-haspopup="true" aria-expanded="false">Dịch vụ</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Hướng dẫn Wordpress cơ bản</a>
+                                <a class="dropdown-item" href="#">Hướng dẫn Web cơ bản </a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mr-3" href="#">Liên hệ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Liên hệ -->
+        <div class="contact">
+            <button type="button" class="btn btn-primary">Chat Zalo</button>
+            <button type="button" class="btn btn-light">Chat Message</button>
+            <button type="button" class="btn btn-success">Hotline: 0384935739</button>
+        </div>
+        <!-- Ảnh trượt -->
+        <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-interval="5000">
+                    <img src="./anh1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-interval="2000">
+                    <img src="./anh2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./anh3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!-- Content Container -->
+        <div class="container">
+            <div class="row mt-4 ml-1">
+                <h2>Chia sẻ mới nhất</h2>
+            </div>
+            <div class="list-share">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12 boxshadow pt-1">
+                        <a class="card-hover" href="#">
+                            <div class="card card-res">
+                            <img src=" ./anh4.jpg" class="card-img-top" alt="wed">
+                                <div class="card-body">
+                                    <p class="card-text">Sửa lỗi khung bình luận Facebook trên website WordPress đột
+                                        nhiên
+                                        bị thu hẹp chiều rộng</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 boxshadow pt-1">
+                        <a class="card-hover" href="#">
+                            <div class="card card-res">
+                            <img height=" 110px" src="./anh5.jpg" class="card-img-top" alt="wed">
+                                <div class="card-body">
+                                    <p class="card-text">Hướng dẫn chèn Breadcrumbs cho website WordPress sử dụng plugin
+                                        Yoast Seo</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 boxshadow pt-1">
+                        <a class="card-hover" href="#">
+                            <div class="card card-res">
+                                <img src="./anh6.jpg" class="card-img-top" alt="wed">
+                                <div class="card-body">
+                                    <p class="card-text">Thêm hiệu ứng ánh sáng khi hover vào ảnh bài viết trong theme
+                                        Flatsome</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 boxshadow pt-1">
+                        <a class="card-hover" href="#">
+                            <div class="card card-res">
+                            <img src=" ./anh7.jpg" class="card-img-top" alt="wed">
+                                <div class="card-body">
+                                    <p class="card-text">Thêm hiệu ứng ánh sáng khi hover ảnh sản phẩm Woocommerce bằng
+                                        CSS
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- About -->
+            <div class="about">
+                <div class="row mt-4">
+                    <div class="col-md-3 col-sm-6 col-xs-12 bg-light p-2">
+                        <div class="res">
+                            <div class="pic">
+                                <img src="./icon1.jpg" alt="wed" height="100%" width="100%">
+                            </div>
+                            <div class="content">
+                                <p style="color: #EE3499;font-weight: 500;">Phần mềm bản quyền</p>
+                                <p style="padding-bottom:0 ;">100% từ nhà phát triển</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 bg-light p-2">
+                        <div class="res">
+                            <div class="pic">
+                                <img src="./icon2.jpg" alt="wed" height="100%" width="100%">
+                            </div>
+                            <div class="content">
+                                <p style="color: #EE3499;font-weight: 500;">Update sản phẩm</p>
+                                <p style="padding-bottom:0 ;">Hỗ trợ update trọn đời</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 bg-light p-2">
+                        <div class="res">
+                            <div class="pic">
+                                <img src="./icon3.jpg" alt="wed" height="100%" width="100%">
+                            </div>
+                            <div class="content">
+                                <p style="color: #EE3499;font-weight: 500;">Thêm mới sản phẩm</p>
+                                <p style="padding-bottom:0 ;">Liên tục hàng tháng</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 bg-light p-2">
+                        <div class="res">
+                            <div class="pic">
+                                <img src="./icon4.jpg" alt="wed" height="100%" width="100%">
+                            </div>
+                            <div class="content">
+                                <p style="color: #EE3499;font-weight: 500;">Đặt hàng, thanh toán</p>
+                                <p style="padding-bottom:0 ;">Linh hoạt, bảo mật</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end About -->
+            <!-- Hot-list -->
+            <div class="row mt-4 ml-1 welcome text-center">
+                <div class="col-12">
+                    <h2>Top items bán chạy</h2>
+                </div>
+                <div class="col-12">
+                    <p>Tổng hợp những sản phẩm bán chạy nhất trong tháng.</p>
+                </div>
+            </div>
+            <div class="hot-list">
+                <!-- list1 -->
+                <div class="row mt-4">
+                    <div class="col-md-2 col-sm-6 col-xs-12">
+                        <div class="card card-res boxshadow">
+                            <img src="./list1.png" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <p class="p-1 bgr-blue"><i class="fas fa-calendar-alt pr-1"></i>7/11/2019</p>
+                                <p class="p-1 bgr-green"><i class="fas fa-code-branch pr-1"></i>2.3.5</p>
+                                <p class="card-text"><a class="hv" href="#">Plugin mới: LearnDash All-in-One Bundle</a>
+                                </p>
+                                <p style="color: #E73A9A;">250.000vnđ</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-xs-12">
+                        <div class="card card-res boxshadow">
+                            <img src="./list2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <p class="p-1 bgr-blue"><i class="fas fa-calendar-alt pr-1"></i>20/11/2019</p>
+                                <p class="p-1 bgr-green"><i class="fas fa-code-branch pr-1"></i>6.3.2</p>
+                                <p class="card-text"><a class="hv" href="#">Jet All-in-One Bundle ( Addon for
+                                        Elementor)</a>
+                                </p>
+                                <p style="color: #E73A9A;">200.000vnđ</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-xs-12">
+                        <div class="card card-res boxshadow">
+                            <img src="./list3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <p class="p-1 bgr-blue"><i class="fas fa-calendar-alt pr-1"></i>17/11/2019</p>
+                                <p class="p-1 bgr-green"><i class="fas fa-code-branch pr-1"></i>2.5.3</p>
+                                <p class="card-text"><a class="hv" href="#">Plugin bản quyền iThemes All-in-one
+                                        Bundle</a>
+                                </p>
+                                <p style="color: #E73A9A;">90.000vnđ</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-xs-12">
+                        <div class="card card-res boxshadow">
+                            <img src="./list4.png" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <p class="p-1 bgr-blue"><i class="fas fa-calendar-alt pr-1"></i>18/07/2019</p>
+                                <p class="p-1 bgr-green"><i class="fas fa-code-branch pr-1"></i>6.0.5</p>
+                                <p class="card-text"><a class="hv" href="#">WPBakery Page Builder for WordPress</a>
+                                </p>
+                                <p style="color: #E73A9A;">60.000vnđ</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-xs-12">
+                        <div class="card card-res boxshadow">
+                            <img src="./list5.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <p class="p-1 bgr-blue"><i class="fas fa-calendar-alt pr-1"></i>10/03/2019</p>
+                                <p class="p-1 bgr-green"><i class="fas fa-code-branch pr-1"></i>2.3.6</p>
+                                <p class="card-text"><a class="hv" href="#">Theme wordpress đẹp: Dokan New Theme</a>
+                                </p>
+                                <p style="color: #E73A9A;">25.000vnđ</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-xs-12">
+                        <div class="card card-res boxshadow">
+                            <img src="./list6.png" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <p class="p-1 bgr-blue"><i class="fas fa-calendar-alt pr-1"></i>13/11/2019</p>
+                                <p class="p-1 bgr-green"><i class="fas fa-code-branch pr-1"></i>12.3</p>
+                                <p class="card-text"><a class="hv" href="#">Yoast Local SEO Premium bản quyền</a>
+                                </p>
+                                <p style="color: #E73A9A;">90.000vnđ</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end list1 -->
+                <!-- list-2 -->
+                <div class="row mt-4">
+                    <div class="col-md-2 col-sm-6 col-xs-12">
+                        <div class="card card-res boxshadow">
+                            <img src="./list7.png" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <p class="p-1 bgr-blue"><i class="fas fa-calendar-alt pr-1"></i>13/11/2019</p>
+                                <p class="p-1 bgr-green"><i class="fas fa-code-branch pr-1"></i>12.3</p>
+                                <p class="card-text"><a class="hv" href="#">Yoast WooCommerce SEO Premium</a>
+                                </p>
+                                <p style="color: #E73A9A;">90.000vnđ</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-xs-12">
+                        <div class="card card-res boxshadow">
+                            <img src="./list8.png" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <p class="p-1 bgr-blue"><i class="fas fa-calendar-alt pr-1"></i>04/11/2019</p>
+                                <p class="p-1 bgr-green"><i class="fas fa-code-branch pr-1"></i>6.2.1</p>
+                                <p class="card-text"><a class="hv" href="#">iThemes Security Pro bản quyền vĩnh viễn</a>
+                                </p>
+                                <p style="color: #E73A9A;">100.000vnđ</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-xs-12">
+                        <div class="card card-res boxshadow">
+                            <img src="./list9.png" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <p class="p-1 bgr-blue"><i class="fas fa-calendar-alt pr-1"></i>04/10/2019</p>
+                                <p class="p-1 bgr-green"><i class="fas fa-code-branch pr-1"></i>2.1.1</p>
+                                <p class="card-text"><a class="hv" href="#">Theme đẹp: Astra WordPress Theme vĩnh viễn</a>
+                                </p>
+                                <p style="color: #E73A9A;">20.000vnđ</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-xs-12">
+                        <div class="card card-res boxshadow">
+                            <img src="./list10.png" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <p class="p-1 bgr-blue"><i class="fas fa-calendar-alt pr-1"></i>29/11/2019</p>
+                                <p class="p-1 bgr-green"><i class="fas fa-code-branch pr-1"></i>2.9.3</p>
+                                <p class="card-text"><a class="hv" href="#">Elementor Addons:Addons for Elementor Pro </a>
+                                </p>
+                                <p style="color: #E73A9A;">10.000vnđ</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-xs-12">
+                        <div class="card card-res boxshadow">
+                            <img src="./list11.png" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <p class="p-1 bgr-blue"><i class="fas fa-calendar-alt pr-1"></i>30/10/2019</p>
+                                <p class="p-1 bgr-green"><i class="fas fa-code-branch pr-1"></i>3.4.1.2</p>
+                                <p class="card-text"><a class="hv" href="#">WP Rocket – Make WP Load Fast in a Few
+                                        Clicks</a>
+                                </p>
+                                <p style="color: #E73A9A;">90.000vnđ</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-xs-12">
+                        <div class="card card-res boxshadow">
+                            <img src="./list12.png" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <p class="p-1 bgr-blue"><i class="fas fa-calendar-alt pr-1"></i>29/10/2019</p>
+                                <p class="p-1 bgr-green"><i class="fas fa-code-branch pr-1"></i>2.7.3</p>
+                                <p class="card-text"><a class="hv" href="#">Elementor PRO WordPress Page Builder</a>
+                                </p>
+                                <p style="color: #E73A9A;">90.000vnđ</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- endl-list-2 -->
+            </div>
+            <!-- end Host list -->
+        </div>
+        <!-- end Container -->
+        <!-- Sign up  -->
+        <div class="row">
+            <div style="width: 100%;" class="col-xs-12 text-center p-5 sign-up">
+                <h2>Trở thành hội viên VIP để hưởng những đặc quyền đẳng cấp</h2>
+                <p>Cùng với hơn 5000+ khách hàng khác. Sử dụng 3000+ theme & plugin bản quyền!</p>
+                <button type="button" class="btn btn-primary">Xem thêm ></button>
+                <button type="button" class="btn btn-secondary">Tham gia ngay <i class="fas fa-gift pl-1"></i></button>
+            </div>
+        </div>
+        <!-- end Sign up -->
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-md-3 col-sm-6 col-sm-12">
+                    <h4>Thông tin</h4>
+                    <ul class="end">
+                        <li><a href="#">Giới thiệu</a></li>
+                        <li><a href="#">Tiêu chí bán hàng</a></li>
+                        <li><a href="#">Điều khoản sử dụng</a></li>
+                        <li><a href="#">Bảo mật thông tin</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 col-sm-12">
+                    <h4>Hỗ trợ khách hàng</h4>
+                    <ul class="end">
+                        <li><a href="#">Hướng dẫn mua hàng</a></li>
+                        <li><a href="#">Hình thức thanh toán</a></li>
+                        <li><a href="#">Quy định đổi sản phẩm</a></li>
+                        <li><a href="#">Câu hỏi thường gặp</a></li>
+                        <li><a href="#">Yêu cầu đổi sản phẩm</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 col-sm-12">
+                    <h4>Hướng dẫn cơ bản</h4>
+                    <ul class="end">
+                        <li><a href="#">Hướng dẫn kỹ thuật</a></li>
+                        <li><a href="#">Hướng dẫn tải sản phẩm</a></li>
+                        <li><a href="#">Hướng dẫn cập nhật sản phẩm</a></li>
+                        <li><a href="#">Yêu cầu sản phẩm mới</a></li>
+                        <li><a href="#">Tin cập nhật</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 col-sm-12">
+                    <h4>Tùy chọn khách hàng</h4>
+                    <ul class="end">
+                        <li><a href="#">Sản phẩm lẻ</a></li>
+                        <li><a href="#">Bộ sản phẩm</a></li>
+                        <li><a href="#">Thành viên</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="pt-2 pb-2" width="100%">
+            <div class="row">
+                <div class="col-md-8">
+                    <p style="font-size: 120%;font-weight: 600;">THIẾT KẾ ĐỒ HỌA VÀ WEBSITE</p>
+                    <p style="font-size: 80%;">Copyright © by <a href="#">Đức Điệp</a>-Thành viên của <a href="ducdiepit.com">ducdiepit.com</a></p>
+                </div>
+                <div class="col-md-4 text-right">
+                    <p style="font-size: 80%;">Hotline kĩ thuật: 0981206317<br>
+                        Email:ducdiep2k@gmail.com
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js"
+        integrity="sha384-3qaqj0lc6sV/qpzrc1N5DC6i1VRn/HyX4qdPaiEFbn54VjQBEU341pvjz7Dv3n6P"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

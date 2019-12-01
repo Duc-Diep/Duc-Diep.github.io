@@ -1,0 +1,99 @@
+.all{
+    background: #fff;
+    position: relative;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+.form-control{
+    width: 70%!important;
+    border: 2px solid #F26A56!important;
+}
+.display-flex{
+    display: flex;
+}
+.contact{
+    opacity: 0.8;
+position: fixed;
+bottom: 20px;
+left: 20px;
+z-index: 100;
+}
+.contact .btn{
+display: block;
+margin-bottom: 8px;
+}
+.btn-light{
+    background: rgb(0, 225, 255)!important;
+}
+.navbar{
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.nav-link{
+    color: white!important;
+    font-weight: 600!important;
+}
+.nav-link:hover{
+    color: orange!important;
+}
+.sticky-top{
+    background-image:linear-gradient(#E31685,#FE3420) ;
+}
+.card-res{
+    width: 100%;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    
+}
+.card{
+    border: none!important;
+}
+.card-hover:hover{
+    color: #E73A99;
+    text-decoration: none;
+}
+.boxshadow{
+    box-shadow:  0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.pic{
+    width: 20%;
+    float: left;
+    height: auto;
+}
+.content{
+    margin-left: 3%;
+    width: 77%;
+    float: left;
+}
+.res{
+    width: 100%;
+    margin: 5px;
+}
+.bgr-blue{
+    background: #2196F3;
+    border-radius: 10px;
+    font-size: 85%;
+    color: white;
+    width: auto;
+}
+.bgr-green{
+    background: #7DBD33;
+    border-radius: 10px;
+    font-size: 85%;
+    color: white;
+    width: auto;
+}
+.hv{
+    font-size: 90%;
+}
+.hv:hover{
+color: #E73A99;
+text-decoration: none;
+}
+.sign-up{
+    background-image:linear-gradient(yellow,orange,rgb(110, 241, 110)) ;
+}
+.end li a{
+    color: black;
+    text-decoration: none;
+}
