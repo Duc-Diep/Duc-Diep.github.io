@@ -1,0 +1,169 @@
+.all {
+    background: #fff;
+    position: relative;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+  .form-control {
+    width: 75% !important;
+    border: 2px solid #f26a56 !important;
+  }
+  .display-flex {
+    display: flex;
+  }
+  .btn-all {
+    color: rgb(178, 178, 178) !important;
+    background: white;
+    border: 1px solid rgb(178, 178, 178) !important;
+  }
+  .btn-all:hover {
+    background-image: linear-gradient(red, violet);
+    color: white !important;
+  }
+  .contact {
+    opacity: 0.8;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 100;
+  }
+  .addres {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+  }
+  .contact .btn {
+    display: block;
+    margin-bottom: 8px;
+  }
+  .btn-light {
+    background: rgb(0, 225, 255) !important;
+  }
+  .navbar {
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  .nav-link {
+    color: white !important;
+    font-weight: 600 !important;
+  }
+  .nav-link:hover {
+    color: orange !important;
+  }
+  .sticky-top {
+    background-image: linear-gradient(#e31685, #fe3420);
+  }
+  .card-res {
+    width: auto;
+    /* margin-right: 5px; */
+    margin-bottom: 10px;
+  }
+  .card {
+    border: none !important;
+  }
+  .card-hover:hover {
+    color: #e73a99;
+    text-decoration: none;
+  }
+  .boxshadow {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  }
+  .cb {
+    padding-right: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .pic {
+    width: 25%;
+    float: left;
+    height: auto;
+  }
+  .content {
+    margin-left: 3%;
+    width: 72%;
+    float: left;
+  }
+  .res {
+    width: 100%;
+    margin: 5px;
+  }
+  .bgr-blue {
+    background: #2196f3;
+    border-radius: 10px;
+    font-size: 85%;
+    color: white;
+    width: auto;
+  }
+  .bgr-green {
+    background: #7dbd33;
+    border-radius: 10px;
+    font-size: 85%;
+    color: white;
+    width: auto;
+  }
+  .hv {
+    font-size: 95%;
+    color: black;
+  }
+  .hv:hover {
+    color: #e73a99;
+    text-decoration: none;
+  }
+  .hvr {
+    color: F37468;
+  }
+  .hvr:hover {
+    color: #e73a99;
+    text-decoration: none;
+  }
+  .sign-up {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    background-image: url("./bg-footer.jpg");
+  }
+  .end li a {
+    color: black;
+    text-decoration: none;
+  }
+  .nav_top {
+    display: inline-block;
+    font-size: 9px;
+    line-height: 9px;
+    text-transform: uppercase;
+    letter-spacing: -0.1px;
+    margin-left: 4px;
+    background-color: brown;
+    font-weight: bolder;
+    border-radius: 2px;
+    color: #fff;
+    padding: 3px;
+    position: relative;
+    top: -4px;
+  }
+  .btn-primary{
+      background: #E73A9A!important;
+      color: white!important;
+      border: none!important;
+  }
+  .btn-primary:hover{
+      background: #B6146A!important;
+  }
+  .btn-secondary{
+      background: orange!important;
+      color: white!important;
+      border: none!important;
+  }
+  .btn-secondary:hover{
+      background: #C25643!important;
+  }
+  .sticky{
+    position: sticky;
+    top: 0;
+  }
+  .card-text{
+    margin: 0!important;
+    padding-bottom: 5px!important;
+    padding-right: 5px!important;
+  }
