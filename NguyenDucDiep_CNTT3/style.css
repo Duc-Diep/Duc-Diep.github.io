@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    background-color: #3C3E47;
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    position: fixed;
+    z-index: 1000;
+}
+h1,h2,h3,h4,h5{
+    font-weight: bold;
+}
+.logo1{
+    height: 100%;
+    width: 10%;
+}
+.logo2{
+    height: 100%;
+    width: 15%;
+    margin-right: 10%;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    width: 60%;
+    float: right;
+}
+ul li{
+    width: 17%;
+    margin-right: 3%;
+    padding: 15px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    background: #F5F5F5;
+    text-align: center;
+    font-weight: bold;
+}
+li:hover{
+    color: red;
+}
+.backgr{
+    background-attachment: fixed;
+    background-image: url('./Web_HITOpenDay/bgr.jpg');
+    background-size: 100%;
+    height: 800px;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    background-color:#556688 ;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+.hitclub{
+    text-align: left;
+    width: 30%;
+    float: left;
+    margin-right: 8%;
+}
+.banner{
+    width: 22%;
+    float: left;
+    margin-right: 5%;
+}
+.bannerimg{
+    background-image: url('./Web_HITOpenDay/avatar2.png');
+    background-size: 100%;
+    height: 200px;
+    border-radius: 50%;
+    border: orange solid 2px;
+}
+.classes{
+    float: left;
+    width: 30%;
+    margin-left: 5%;
+}
+.allclass{
+    margin-top: 30px;
+}
+.line{
+    height: auto;
+    margin-top: 50px;
+}
+.oneclass{
+    font-size: 90%;
+    cursor: pointer;
+    padding: 28px 2px;
+    float: left;
+    width: 25%;
+    margin-right: 5%;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    text-align: center;
+    height: auto;
+    border: solid black 1px;
+}
+.oneclass:hover{
+    color: white;
+    background: black;
+}
+.infleader{
+    height: auto;
+    width: 95%;
+    margin: 0 auto;
+    clear: both;
+    margin-bottom: 50px;
+}
+.inf{
+    height: auto;
+}
+.leader1{
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+}
+.leader2{
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+}
+.leader3{
+    width: 30%;
+    float: left;
+}
+.name{
+    margin-top: 0;
+    padding: 40px 0;
+    text-align: center;
+    background: orange;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.profile{
+    height: auto;
+    clear: both;
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+.pic1{
+    float: left;
+    width: 33%;
+    height: 300px;
+    margin-right: 1%;
+}
+.pic2{
+    float: left;
+    width: 32%;
+    height: 300px;
+    /* margin-right: 1%; */
+}
+.linepic1{
+    height: 300px;
+    margin-bottom: 10px;
+}
+.linepic2{
+    height: 300px;
+    margin-bottom: 10px;
+}
+.footer{
+    margin-top: 50px;
+    clear: both;
+    padding: 50px 0;
+    text-align: center;
+    background: #F0FFFF;
+}
+i{
+    font-size: 120%;
+    color: blue;
+    margin-right: 5px;
+}
